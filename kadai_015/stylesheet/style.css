@@ -63,6 +63,7 @@ p {
 .section_title {
   font-size: 36px;
   font-weight: 600;
+   /* font-family: 'Lora', serif; */
 }
 
 .section_title::after {
@@ -79,6 +80,15 @@ p {
   content: "シェフ";
 }
 
-.chef_us_bg {
-  background-color: #FFE6A5;
+.chef_bg {
+  background-color: #fdf5e6;
 }
+ 
+
+.chef_name {
+  font-size: 22px; /* ABOUT USのサブ見出しに合わせる */
+  font-weight: 600;
+  margin-bottom: 24px; /* 下の文章との余白 */
+}
+
+
